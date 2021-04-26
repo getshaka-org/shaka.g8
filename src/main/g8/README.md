@@ -8,5 +8,5 @@
 ## To Deploy
 1. Run `fullLinkJS`.
 2. Copy `prod.index.html` to `index.html` on your server.
-3. Copy `target/scala-3.0.0-RC1/$name$-fastopt/main.js` to `$name$.js` on your server.
+3. Copy `target/scala-3.0.0-RC3/$name$-fastopt/main.js` to `$name$.js` on your server.
 4. Redeploy the server.

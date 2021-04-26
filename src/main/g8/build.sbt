@@ -7,14 +7,12 @@ lazy val root = project
     version := "$version$",
     versionScheme := Some("$version-scheme$"),
 
-    scalaVersion := "3.0.0-RC1",
-    scalacOptions ++= Seq(
-      "-Ycheck-init",
-      "-Yindent-colons"
-    ),
+    scalaVersion := "3.0.0-RC3",
+    // todo remove when fixed: https://github.com/lampepfl/dotty/issues/11943
+    Compile / doc / sources := Seq(),
     scalaJSUseMainModuleInitializer := true,
 
     libraryDependencies ++= Seq(
-      "org.getshaka" %%% "shaka" % "0.2.0"
+      "org.getshaka" %%% "shaka" % "0.2.1"
     )
   )

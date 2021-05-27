@@ -3,7 +3,7 @@
 ## To Develop:
 1. Launch a sbt session with `sbt`.
 2. In the sbt console, run `~fastLinkJS`, which incrementally recompiles on save.
-3. Open `index.html` in your browser, or optionally run [`serve`](https://github.com/AugustNagro/serve) in a new terminal tab for hot-reload.
+3. Open `index.html` in your browser, or optionally run something like [`serve`](https://github.com/AugustNagro/serve) in a new terminal tab for hot-reload.
 
 ## To Deploy
 1. Run `fullLinkJS`.

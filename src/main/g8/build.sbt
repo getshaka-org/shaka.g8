@@ -7,10 +7,10 @@ lazy val root = project
     version := "$version$",
     versionScheme := Some("$version-scheme$"),
 
-    scalaVersion := "3.1.2",
+    scalaVersion := "3.3.0",
     scalaJSUseMainModuleInitializer := true,
 
     libraryDependencies ++= Seq(
-      "org.getshaka" %%% "shaka" % "0.5.0"
+      "org.getshaka" %%% "shaka" % "0.6.0"
     )
   )
